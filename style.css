@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* re-size font-size of the entire page */
+html {
+    font-size: 62.5%;
+}
+
+/* class to use flex-box in all document */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(127, 86, 167);
+}
+
+/* centered heading */
+.header {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+/* style the element in heading */
+.heading {
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+}
+
+/* customaize the span */
+.heading span {
+    font-size: 4rem;
+    color: #efd81d;
+}
+
+/* customize button */
+.btn {
+    width: 15rem;
+    height: 4rem;
+    background-color: #efd81d;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    border: none;
+    margin-top: 3.5rem;
+}
+
+/* customize the boxes */
+.boxes {
+    width: 40%;
+    height: 100%;
+}
+
+.box div {
+    width: 7rem;
+    height: 7rem;
+    background-color: #efd81d;
+    position: absolute;
+
+}
