@@ -69,6 +69,16 @@ html {
     perspective: 150rem;
 }
 
+
+/* connection with javascript */
+.active.box {
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+
+
 .box {
     transform-style: preserve-3d;
     /* why it dosen't work? */
